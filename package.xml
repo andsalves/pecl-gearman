@@ -16,11 +16,17 @@
   <email>hradtke@php.net</email>
   <active>yes</active>
  </lead>
- <date>2013-08-28</date>
- <time>22:00:00</time>
+ <lead>
+  <name>Anderson Alves Nunes</name>
+  <user>andsalves</user>
+  <email>ands.alves.nunes@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2017-12-29</date>
+ <time>22:36:00</time>
  <version>
-  <release>1.1.2</release>
-  <api>1.1.2</api>
+  <release>2.0.4</release>
+  <api>2.0.4</api>
  </version>
  <stability>
   <release>stable</release>
@@ -56,9 +62,9 @@
  <dependencies>
   <required>
    <php>
-    <min>5.1.0</min>
-    <max>6.0.0</max>
-    <exclude>6.0.0</exclude>
+    <min>7.0.0</min>
+    <max>8.0.0</max>
+    <exclude>8.0.0</exclude>
    </php>
    <pearinstaller>
     <min>1.4.0b1</min>
@@ -68,6 +74,20 @@
  <providesextension>gearman</providesextension>
  <extsrcrelease />
  <changelog>
+  <release>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <version>
+    <release>2.0.4</release>
+    <api>2.0.4</api>
+   </version>
+   <date>2017-12-29</date>
+   <notes>
+- Version correction
+   </notes>
+  </release>
   <release>
    <stability>
     <release>stable</release>
